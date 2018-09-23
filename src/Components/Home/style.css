@@ -1,0 +1,20 @@
+.container {
+    width:  100%;
+    padding: 20px;
+    border-radius: 2px;
+    top: 20px;
+    
+    position: relative;
+    border: 1px solid lightblue;
+}
+h6 {
+    margin-left: 10px;
+}
+.topText {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    font-weight: 800;
+}
+.bottomHtml {
+    float: right;
+}
