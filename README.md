@@ -5,6 +5,10 @@
      - [Install Nodejs](https://nodejs.org/en/)
 - Install Typescript on your system
      -  `npm install -g typescript`
+
+#### Demo
+- [Click here](https://react-html-to-pdf.herokuapp.com/)
+
 #### Steps
 In the root directory of this code, use the following commands:
 `npm install` - _it will install your project dependencies_
