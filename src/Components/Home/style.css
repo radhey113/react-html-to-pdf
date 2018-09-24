@@ -18,3 +18,17 @@ h6 {
 .bottomHtml {
     float: right;
 }
+
+#pdfContent {
+    background: rgb(236, 165, 137);;
+}
+
+.btn {
+    background: lightgoldenrodyellow;
+    float: right;
+}
+
+.btn:hover {
+    background: gray;
+    color: white;
+}
