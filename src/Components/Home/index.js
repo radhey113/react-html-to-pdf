@@ -19,10 +19,19 @@ export default class Home extends React.Component {
         html2canvas(element).then(canvas => {           
             const imgWidth = 200;
             const imgHeight = canvas.height * imgWidth / canvas.width;
+
+            // Default export is a4 paper, portrait, using milimeters for units
             const pdf = new jspdf('p', 'mm', 'a4', 'letter'); // A4 size page of PDF
         
             const contentDataURL = canvas.toDataURL('image/png'); 
             pdf.addImage(contentDataURL, 'PNG', 5, 5, imgWidth, imgHeight);
+
+            // Add text to pdf 
+            // doc.text('Hello world!', 1, 1);
+
+            
+
+
             pdf.save(Date.now()+'.pdf');
         })
     }

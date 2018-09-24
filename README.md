@@ -27,6 +27,8 @@ Just use `export NODE_ENV=dev`. To verify varialbe is set of not, just run the c
 
     - 'npm install @types/html2canvas --save'
     - `npm install jspdf --save`
+    - `import * as jsPDF from 'jspdf'`
+    - `import * as html2canvas from 'html2canvas'`
     - React-Code: 
         const element = this.refs.pdfContent;
         html2canvas(element).then(canvas => {           
